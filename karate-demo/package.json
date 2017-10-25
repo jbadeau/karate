@@ -1,0 +1,7 @@
+{
+	"name": "karate-demo",
+	"version": "0.6.1",
+	"dependencies": {
+		"stjs": "0.0.3"
+	}
+}

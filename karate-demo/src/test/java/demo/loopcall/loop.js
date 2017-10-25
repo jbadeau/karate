@@ -1,4 +1,5 @@
-function(arr, cat){  
+function(arr, cat){
+  karate.log('---------->' + cat.name)
   var res = []; 
   for (var i = 0; i < arr.length; i++) {
     var res1 = karate.call('create-' + arr[i] + '.feature', cat);
